@@ -1,0 +1,765 @@
+/****** header and footer css  start ***/
+body {
+  font-family: Verdana,Geneva,"DejaVu Sans",sans-serif;
+  background-position: -500px;
+}
+
+.logo {
+  float: left;
+  width: 13%;
+  margin-left: 22px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+#header {
+  width: 84%;
+  float: left;
+}
+
+#header-container {
+  background: transparent;
+  height: 82px;
+}
+
+#header .at-panel .region-header-third {
+  float: right;
+  background: url("../images/logo1.jpg") no-repeat ;
+  width: 32%;
+  background-position: 78% 20%;
+}
+
+.header-wrapper {
+  border-bottom: 5px solid #150958;
+  border-top: 2px solid #150958;
+  width: 100%;
+  float: left;
+  background: url("../images/top_bg.jpg") no-repeat;
+  background-position: 100% 100%;
+}
+
+#header .region-inner {
+  padding-top: 45px;
+}
+
+#header .form-text {
+  background: url("../images/search.jpg") no-repeat !important ;
+  border: medium none;
+  border: none !important;
+  float: left;
+  width: 70% !important;
+  margin-left: 8px !important;
+}
+
+#header #edit-submit {
+  background: url("../images/search-ok.gif") no-repeat ;
+  border: medium none;
+  cursor: pointer;
+  height: 24px;
+  text-indent: -9999em;
+  width: 22px;
+}
+
+#header label.element-invisible {
+  float: left !important;
+  width: 24% !important;
+  position: relative !important;
+  display: block;
+  margin: 0 !important;
+  overflow: visible;
+  font-family: Verdana,Geneva,"DejaVu Sans",sans-serif;
+  color: #150958;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+#header label.element-invisible:after {
+  content: ":";
+  position: absolute;
+}
+
+#header #search-block-form {
+  padding-bottom: 0;
+}
+
+#header #block-boxes-advanced-search ,#header #boxes-box-advance_search_all_page { 
+  text-align: left;
+  margin-top: -5px;
+  margin-left: 4.4em;
+}
+
+#header #header-container {
+  background: transparent;
+}
+
+#block-boxes-advanced-search .boxes-box-content p a ,#header #boxes-box-advance_search_all_page .boxes-box-content p a {
+  color: #221761;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#block-boxes-advanced-search .boxes-box-content p ,#header #boxes-box-advance_search_all_page .boxes-box-content p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#footer_bottom {
+  border-top: 5px solid #150958;
+  opacity: 0.8;
+  width: 100%;
+  float: left;
+  padding-top: 3px;
+}
+
+.region-footer-bottom {
+  background: #000;
+}
+
+.footer-right {
+  display: inline-block;
+  width: 35%;
+  float: left;
+  text-align: right;
+}
+
+.footer-left {
+  float: left;
+  width: 65%;
+  display: inline-block;
+}
+
+.footer-right p ,.footer-left p {
+  color: #A1A1A1;
+}
+
+/*************** middle home ***/
+#block-user-login {
+  border: 1px solid #150958;
+  border-radius: 5px;
+  margin-bottom : 0px;
+  margin-top: 0px;
+}
+
+#user-login-form ul li a {
+  font-size: 10px;
+}
+
+#block-user-login .block-title {
+  font-size: 12px;
+  background: none;
+  border: none;
+  padding-bottom: 0px;
+  color: #150958;
+  font-weight: bold;
+}
+
+#block-user-login .block-content.content {
+  border-top: 1px solid #150958;
+  padding-top: 5px;
+}
+
+#user-login-form .form-item label {
+  font-family: Verdana,Geneva,"DejaVu Sans",sans-serif;
+  font-size: 11px;
+  color: #150958;
+  font-weight: normal;
+  margin-left: 0;
+}
+
+#user-login-form .form-text {
+  border-radius: 5px;
+  padding: 1px 0 1px 6px;
+  width: 100%;
+}
+
+#user-login-form .item-list ul {
+text-align: center;
+}
+
+#user-login-form .form-actions {
+  margin: 4px 0px 4px 0px;
+}
+
+#user-login-form .form-item {
+  margin: 0;
+}
+
+#user-login-form .form-submit {
+  margin-left: 27%;
+  background: #150958;
+  color: #fff;
+  border: none;
+  padding: 4px 25px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.front .region-sidebar-first .region-inner { 
+  padding-top: 20px;
+}
+ 
+.front .region-content-top .region-inner ,.front #columns .hg-container #content-column .content-inner {
+  padding-top: 0px;
+}
+
+.front .node-content .media-element {
+  border-radius: 10px;
+  padding-right: 0px;
+}
+
+.view.view-most-visited-faculty-profiles .views-row .views-field {
+  background: url("../images/listBullet.png") no-repeat;
+  padding-left: 15px;
+  background-position: 0.2% 6px;
+}
+
+.front .region-content-last .block .more-link {
+  bottom: 9px;
+  position: absolute;
+  text-align: right;
+  right: 20px;
+}
+
+.front .more-link a  {
+  padding-right: 13px;
+  color: #293352;
+  background: url('../images/moreArrow.png') center right no-repeat;
+  text-decoration: none;
+}
+
+.front #block-biblio-recent .item-list a , .region-sidebar-second  #block-biblio-recent .item-list a  { 
+  bottom: 9px;
+  position: absolute;
+  text-align: right;
+  right: 20px;
+  background: #150958;
+  color: #fff;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 2px;
+  font-size: 9px;
+  text-transform: lowercase;
+  margin-bottom: 3px;
+}
+
+.region-sidebar-second  #block-biblio-recent {
+  position: relative;
+}
+
+.region-sidebar-second  #block-biblio-recent .item-list a {
+  position: inherit;
+  margin-left: 68%;  
+}
+.front #block-biblio-recent .item-list a:hover , .region-sidebar-second  #block-biblio-recent .item-list a:hover {
+  text-decoration: none;
+}
+
+.region-sidebar-second #block-boxes-os-news-latest #boxes-box-os_news_latest li {
+  margin-bottom: .75em;
+}
+
+.front #block-biblio-recent .item-list ul li a ,.region-sidebar-second  #block-biblio-recent .item-list ul li a {
+  bottom: 0px;
+  position: inherit;
+  font-size: 11px;
+  text-align: none;
+  background: none;
+  color: #150958;
+  border: none;
+  padding: 0px ;
+  border-radius: 0px;
+  text-transform: none;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.view-id-os_events .date-nav.item-list {
+  padding-bottom: 0;
+}
+
+.front .region-content-last .region-inner {
+  border-top: 1px solid #150958;
+  padding-top: 5px;
+}
+
+.front #block-biblio-recent {
+  margin-left: 0px;
+}
+
+.front .region-content-bottom .region-inner {
+  padding-top: 0px;
+}
+
+.front .region-inner .node-page ,.front .region-sidebar-first .block {
+  margin-bottom: 0;
+}
+
+.front #columns {
+  padding: 0px 23px;
+}
+
+.front .region-content-last {
+  padding: 0px 23px 5px 23px;
+}
+
+.front .region.region-sidebar-first.sidebar .block {
+border: 1px solid #150958;
+margin-top: 3px;
+border-radius: 5px;
+}
+/*****  home page  setting ****/
+#columns {
+  padding: 5px 23px;
+}
+
+.region-content-last {
+  padding: 5px 23px;
+}
+
+.page-node #content-column .content-inner {
+  padding: 0px;
+}
+
+.front div#block-os-pages-main-content .field-name-body a span {
+  margin-bottom: 3px;
+}
+
+.hg-container .region-sidebar-first {
+  width: 175px;
+}
+
+.front.sidebar-first .content-inner {
+  margin-left: 170px;
+}
+/**** end ******/
+
+/************** css for college of medicen ****/
+.not-front.two-sidebars .content-inner {
+  margin-right: 215px ;
+  margin-left: 183px;
+}
+.not-front .region-sidebar-second {
+  width: 211px;
+  margin-left: -211px;
+}
+
+.region-sidebar-second .region-inner {
+  border: 1px solid #150958;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.region-sidebar-second .block {
+  border-bottom: 1px solid #150958;
+}
+
+.region-sidebar-second .block .block-inner {
+  padding: 0 9px;
+}
+
+.not-front .sidebar h2.block-title {
+  background: none;
+  border: none;
+  font-size: 12px;
+  font-family: Verdana,Geneva,"DejaVu Sans",sans-serif;
+  color: #150958;
+  font-weight: bold;
+}
+
+.region-sidebar-second .block:last-child {
+  border-bottom: none;
+}
+
+.region-sidebar-second .block {
+  margin-bottom: 2px;
+}
+
+.region-sidebar-second .views-row {
+  margin-bottom: 0.5em;
+}
+
+.region-sidebar-second .views-row:before {
+  content: "";
+  top: 7px;
+  left: -5px;
+  color: #000;
+  float: left;
+  position: relative;
+  font-size: 12px;
+  background: url('../images/listBullet.png');
+  width: 7px;
+  height: 7px;
+}
+
+.region-sidebar-second .views-field .field-content a {
+  color: #000000;
+  font-size: 10px;
+  text-align: justify;
+}
+
+.region-sidebar-second .view .more-link a,.view-id-faculty_list_for_college_of_medicine .views-view-grid .views-field-nothing .field-content a , .region .block a.more-link , .region .block .more-link a , .view-faculty-list-for-college-of-engineering .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-business .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-science-general-studies .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-upp .views-field-nothing .field-content a  {
+  background: #150958;
+  color: #fff;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 2px;
+  font-size: 9px;
+  text-transform: lowercase;
+  margin-bottom: 3px;
+}
+
+.region-sidebar-second .view .more-link a:hover , .view-id-faculty_list_for_college_of_medicine .views-view-grid .views-field-nothing .field-content a:hover  {
+  text-decoration: none;
+}
+
+.region-sidebar-second .region-inner {
+  padding-top: 0px;
+}
+
+#columns .region-sidebar-second .block ul li a {
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.view-faculty-list-for-college-of-medicine .views-field-picture ,.view-faculty-list-for-college-of-engineering .views-field-picture ,.view-faculty-list-for-college-of-business .views-field-picture  ,.view-faculty-list-for-college-of-science-general-studies .views-field-picture , .view-faculty-list-for-college-of-upp .views-field-picture  {
+  float: left;
+  width: 30%;
+  display: inline-block;
+  height: auto;
+} 
+.view-id-faculty_list_for_college_of_medicine .views-view-grid td .views-field-nothing-1 ,.view-faculty-list-for-college-of-medicine .views-view-grid td  .views-field-field-designation ,.view-faculty-list-for-college-of-engineering .views-field-nothing-1 ,.view-faculty-list-for-college-of-engineering .views-field-field-designation ,.view-faculty-list-for-college-of-business .views-field-nothing-1 ,.view-faculty-list-for-college-of-business  .views-field-field-designation ,.view-faculty-list-for-college-of-science-general-studies  .views-field-nothing-1 ,.view-faculty-list-for-college-of-science-general-studies .views-field-field-designation , .view-faculty-list-for-college-of-upp .views-field-nothing-1 ,.view-faculty-list-for-college-of-upp .views-field-field-designation {
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 13px;
+  width:63%;
+  float: left;
+}
+
+.view-id-faculty_list_for_college_of_medicine .views-view-grid td .views-field.views-field-nothing ,.view-faculty-list-for-college-of-engineering .views-field.views-field-nothing ,.view-faculty-list-for-college-of-business .views-field.views-field-nothing ,.view-faculty-list-for-college-of-upp  .views-view-grid td .views-field.views-field-nothing , .view-faculty-list-for-college-of-science-general-studies  .views-view-grid td .views-field.views-field-nothing {
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 13px;
+  text-align: right;
+  width: 60%;
+  bottom: 0;
+  float: right;
+}
+.view-id-faculty_list_for_college_of_medicine .views-view-grid td.col-1 ,.view-faculty-list-for-college-of-engineering  .views-view-grid td.col-1 ,.view-faculty-list-for-college-of-business  .views-view-grid td.col-1 ,.view-faculty-list-for-college-of-upp .views-view-grid td.col-1 ,.view-faculty-list-for-college-of-science-general-studies .views-view-grid td.col-1 { 
+  padding-right: 15px;
+}
+
+.view-faculty-list-for-college-of-medicine .user-picture img , .view-faculty-list-for-college-of-engineering .user-picture img  , .view-faculty-list-for-college-of-business .user-picture img ,.view-faculty-list-for-college-of-science-general-studies .views-field-picture img ,.view-faculty-list-for-college-of-upp .views-field-picture img   {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.view-faculty-list-for-college-of-medicine .views-view-grid td , .view-faculty-list-for-college-of-engineering .views-view-grid td  , .view-faculty-list-for-college-of-business .views-view-grid td  ,.view-faculty-list-for-college-of-upp .views-view-grid td ,.view-faculty-list-for-college-of-science-general-studies .views-view-grid td {
+  border-bottom: 1px solid #CCC;
+  margin: 0;
+  color: #8E8D8F;
+  padding: 0px;
+  padding-bottom: 0.8em;
+  vertical-align: top;
+  padding-top: 0.8em;
+  width: 50%;
+}
+
+.view-faculty-list-for-college-of-medicine .col-2 ,.view-faculty-list-for-college-of-medicine .col-1 ,.view-faculty-list-for-college-of-business .col-2 ,.view-faculty-list-for-college-of-business .col-1 ,.view-faculty-list-for-college-of-engineering .col-1 ,.view-faculty-list-for-college-of-engineering .col-2 ,.view-faculty-list-for-college-of-upp .col-2 ,.view-faculty-list-for-college-of-upp .col-1 ,.view-faculty-list-for-college-of-science-general-studies .col-2 ,.view-faculty-list-for-college-of-science-general-studies .col-1 {
+  position: relative;
+}
+
+.view-faculty-list-for-college-of-medicine  .col-2 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-business .col-2 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-engineering .col-2 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-science-general-studies .col-2 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-upp .col-2 .views-field-nothing .field-content a {
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+  margin-bottom: 12px;
+
+}
+.view-faculty-list-for-college-of-medicine .col-1 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-engineering .col-1 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-business .col-1 .views-field-nothing .field-content a ,.view-faculty-list-for-college-of-science-general-studies .col-1 .views-field-nothing .field-content a  ,.view-faculty-list-for-college-of-upp .col-1 .views-field-nothing .field-content a  {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  margin-bottom: 12px;
+}
+
+.view a:hover {
+  text-decoration: none;
+}
+
+.view-faculty-list-for-college-of-medicine .views-view-grid .col-2 , .view-faculty-list-for-college-of-engineering .views-view-grid .col-2 ,.view-faculty-list-for-college-of-business .views-view-grid .col-2 ,.view-faculty-list-for-college-of-science-general-studies  .views-view-grid .col-2 ,.view-faculty-list-for-college-of-upp .views-view-grid .col-2  {
+  border-left: 1px solid #CCCCCC;
+  padding-left: 19px;
+}
+
+.view-faculty-list-for-college-of-medicine .views-view-grid  {
+  display: block;
+}
+
+.view-faculty-list-for-college-of-medicine .views-view-grid tr:last-child td ,.view-faculty-list-for-college-of-engineering .views-view-grid tr:last-child td ,.view-faculty-list-for-college-of-business .views-view-grid tr:last-child td ,.view-faculty-list-for-college-of-science-general-studies .views-view-grid tr:last-child td,.view-faculty-list-for-college-of-upp .views-view-grid tr:last-child td {
+  border: none;
+}
+
+h1#page-title {
+  font-size: 12px;
+  margin-top: 12px;
+  margin-left: 0px;
+  font-weight: bold;
+  color: #150958;
+}
+
+/***** end *****/
+/**** start css for latest an ****/
+.node-header h1 a {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #636262;
+  font-weight: bold;
+}
+
+#content-column .article ul.links.inline li a {
+  color: blue;
+}
+
+/*** most visted ***/
+#columns .view-most-visited-faculty-profiles .views-row {
+  background: none repeat scroll 0 0 #F2F2F2;
+  border-radius: 15px;
+  margin-bottom: 10px !important;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  padding: 12px 0px;
+  border-bottom: 1px solid #CCC;
+}
+
+#columns .view-most-visited-faculty-profiles .views-field-picture {
+  float: left;
+  width: 13%;
+  display: inline-block;
+}
+
+#columns .view-most-visited-faculty-profiles .views-field-nothing ,#columns .view-most-visited-faculty-profiles .views-field-field-designation {
+  width: 80%;
+  display: inline-block;
+}
+
+#columns .view.view-most-visited-faculty-profiles .views-row .views-field {
+  background: none;
+}
+
+#columns .view.view-most-visited-faculty-profiles .views-field-nothing .field-content a {
+  color: blue;
+  font-size: 12px;
+}
+
+#columns .view.view-most-visited-faculty-profiles .views-field-field-designation .field-content {
+  display: inline-block;
+  font-size: 10px;
+}
+
+.item-list ul.pager li.pager-current {
+  padding: 2px 6px;
+}
+
+.biblio-entry  .biblio-title a {
+  color: #005C9C; 
+}
+
+/*** end **/
+/** css for calender **/
+
+.view .date-nav-wrapper  .date-prev ,.view .date-nav-wrapper .date-next {
+  background: none;
+}
+
+.view .date-nav-wrapper .date-heading h3 a {
+   font-size: 12px;
+}
+
+.month-view table tr .mini .month {
+  font-size: 10px;
+  text-align: center;
+}
+
+.month-view .mini th.days {
+  font-size: 10px;
+  background: none;
+}
+/***** end ****/
+.region-content-last {
+  padding: 5px 10px;
+  background: #fff;
+  padding-bottom: 2em;
+}
+
+.front .region-content-last section {
+width: 29.6%;
+float: left;
+padding: 10px;
+border: 1px solid #150958;
+border-radius: 10px;
+min-height: 190px;
+margin-left: 19px;
+color: #000;
+background: #F7F7F7;
+position: relative;
+}
+.front .region-content-last section:last-child {
+  margin-right: 0;
+
+}
+.front .region-content-last section ul {
+  margin-left: 1.2em;
+}
+
+.view-most-visited-faculty-profiles .views-row{
+  margin-bottom: 0;
+}
+
+#block-boxes-os-news-latest #boxes-box-os_news_latest li {
+  margin-bottom: 0;
+
+}
+
+.front .region-content-last h2 {
+  border-bottom: 1px solid #150958;
+  font-size: 12px;
+  color: #1B105E;
+  font-weight:bold;
+}
+   
+.front .region-content-last .block ul li a , .front .region-content-last .view .views-field .field-content a {
+  font-size: 11px;
+}
+
+.region-sidebar-second .views-field .field-content a:hover , .region-content-last .block ul li a:hover ,  .region-content-last .view .views-field .field-content a:hover {
+ text-decoration: none;
+}
+
+/********************* 15 dec 2014 *********/
+
+#columns .region-sidebar-first .block-boxes-os_boxes_html p {
+line-height: 1em;
+color: #1a0d58;
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 0;
+text-align: center;
+}
+
+#columns .region-sidebar-first #block-os-primary-menu.block ul li a, #columns  #block-menu-menu-menu-for-most-visite-facult  ul li a ,#block-menu-menu-university-menu   ul li a  {
+color: #FFFFFF;
+text-decoration: none;
+padding-left: 28px;
+}
+
+#columns .region-sidebar-first #block-os-primary-menu.block .menu li , #columns  #block-menu-menu-menu-for-most-visite-facult .menu li ,#block-menu-menu-university-menu .menu li {
+background: url("../images/links.jpg") no-repeat center;
+margin-top: 10px;
+width: 100%;
+height: 21px;
+background-size: 100%;
+border-radius: 5px;
+padding-right: 0px;
+}
+
+#columns .region-sidebar-first #block-os-primary-menu .block-inner ,#columns .region-sidebar-first #block-os-primary-menu .block-content {
+width: 100%;
+margin: 0px;
+}
+.region-sidebar-first .block-boxes-os_boxes_html {
+margin-bottom: 0;
+margin-top: 6px;
+}
+
+.region-sidebar-second .block:first-child {
+margin-top: 0;
+border-radius: 5px 5px 0px 0px;
+padding-top: 5px;
+}
+
+.region-sidebar-second .block:first-child p {
+margin-bottom: 0;
+}
+
+#columns .region-sidebar-first #block-menu-menu-menu-for-most-visite-facult  ul ,#block-menu-menu-university-menu ul{
+margin-left: 0px;
+padding-top: 0px;
+}
+
+#columns .region-sidebar-first  #block-os-primary-menu.block , #columns .region-sidebar-first .block-boxes-os_boxes_html ,#columns .region-sidebar-first #block-menu-menu-menu-for-most-visite-facult , #block-menu-menu-university-menu {
+background :none;
+width: 100%;
+}
+
+.region-sidebar-second .block:first-child .block-inner {
+padding-right: 0;
+margin-right: 0;
+padding-left: 18px;
+}
+
+.region-sidebar-second .views-row {
+padding-left: 7px;
+}
+
+.sidebar .block ul {
+margin: 8px 0 0 16px;
+}
+
+.view-faculty-list-for-college-of-medicine .views-field-nothing {
+bottom: 0;
+float: right;
+margin-right: 15px;
+}
+
+#columns .region-header-second div#boxes-box-site_logo {
+float: left;
+width: 20%;
+padding-top: 4px;
+}
+
+#columns .region-header-second div#block-boxes-site-info {
+float: left;
+width: 75%;
+}
+
+#columns .region-header-second div#boxes-box-site_logo img {
+width: 100%;
+border-radius: 5px;
+}
+
+/***************** date 16 *****************/
+#block-system-user-menu a {
+color: #000;
+}
+
+div#block-boxes-site-info {
+margin-left: 0;
+}
+#block-menu-menu-menu-for-most-visite-facult .block-inner .block-content {
+padding-right: 0px ;
+}
+#block-menu-menu-menu-for-most-visite-facult .block-inner .block-title {
+text-align: center;
+}
+
+#block-menu-menu-menu-for-most-visite-facult .block-inner {
+margin: 0px;
+}
+
+.change-pass-msg {
+font-size: 9px;
+text-align: center;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+#columns .region-header-second .region-inner.clearfix {
+padding-top: 0;
+}
+
+#main-content {
+padding-top: 17px;
+}
