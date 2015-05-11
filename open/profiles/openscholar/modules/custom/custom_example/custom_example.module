@@ -1,0 +1,29 @@
+<?php
+/*
+creating  hook_form_alter()
+*/
+	function custom_example_form_alter(&$form,&$form_state,$form_id)
+	{
+		
+
+   
+   
+   // if($id)
+//	{		
+        	$form['webform_client_form_34'] = array(
+        	'#weight' => 1001,    
+        	'#markup' =>'<input class="form-button" type="reset" value="Reset" />',
+         	);
+        	return $form;
+  //  	 }
+	
+  }
+
+
+
+
+
+
+
+	
+

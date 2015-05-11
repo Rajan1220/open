@@ -1,0 +1,5 @@
+name = reset button	
+description = this module is for reset button
+version= 0.1
+core = 7.x
+package = custom module

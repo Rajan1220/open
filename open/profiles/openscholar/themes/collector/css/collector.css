@@ -252,3 +252,18 @@ body.sidebar-second #footer, body.two-sidebars #footer {
 .node-type-page .breadcrumb {
     margin: 15px 0 15px 20px;
 }
+.user-title
+{
+  margin-right: 50px;
+}
+
+
+
+
+
+
+/*..------------------------------*/
+#powerby-login
+{
+  display:none;
+}

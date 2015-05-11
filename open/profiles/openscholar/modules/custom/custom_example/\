@@ -1,0 +1,20 @@
+<?php
+/*
+ hook_form_alter()
+*/
+	function custom_example_form_alter(&$form,&$form_state,$form_id)
+	{
+		//echo "<pre>";print_r($form_id);die();
+    $form['webform_client_form_34'] = array(
+    '#value' => t('RESET'),
+    '#weight' => 1000,
+    '#type' => 'button',
+    '#submit' => array('custom_example_form_submit')
+	);
+  return $form;
+  }
+
+function custom_example_form_submit(&$form,&$form_state,$form_id)
+{
+	echo "RESET";die();
+}
