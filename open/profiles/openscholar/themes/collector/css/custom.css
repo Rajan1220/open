@@ -1,4 +1,25 @@
+
+/*..------------------------------*/
 #powerby-login
 {
-	display:none;
+  display:none;
 }
+
+.view-webformview .views-view-grid {
+    border-bottom: 2px solid;
+    width: 100%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.view-content
+{
+	    font-size: 18px;
+
+}
+
+/*-------block title-------
+{
+	margin-right: 86px;
+}
+-*/
