@@ -18,8 +18,19 @@
 
 }
 
-/*-------block title-------
+/*-------form buttons ----*/
+
+.node-content input.form-button
 {
-	margin-right: 86px;
+	float: left;
+	margin-left: 63px;
+	margin-top: -37px;
 }
--*/
+/*
+.block-content content .form-button 
+{
+	float: left;
+	margin-left: 52px;
+	margin-top: -37px;
+}
+*/
