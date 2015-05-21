@@ -1,0 +1,33 @@
+<?php
+function hook_schema() {
+$schema ['node'] = array(
+    // Example (partial) specification for table "node".
+    'description' => 'The table for alumni users.',
+    'fields' => array(
+      'fname' => array(
+        'description' => 'First name of alumni user',
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => TRUE,
+        'default' => '',
+        ),
+        'lname' => array(
+        'description' => 'Last name of alumni user',
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'rid' => array(
+        'description' => 'Role id for alumni user',
+        'type' => 'INT',
+        'length' => 2,
+        'not null' => FALSE,
+        'default' => '7',
+      ),
+      'primary key' => array('rid'),
+      );
+  return $schema;
+}
+
+?>

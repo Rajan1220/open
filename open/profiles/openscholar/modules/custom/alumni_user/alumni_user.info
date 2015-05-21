@@ -1,0 +1,4 @@
+name = Alumni User		
+description = This module is for creating a user from registration form.
+version= 0.1
+core = 7.x

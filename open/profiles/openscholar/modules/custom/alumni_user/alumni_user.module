@@ -1,0 +1,38 @@
+<?php
+function alumni_user_update_7001() {
+  $fields = array((
+        'description' => 'First name of alumni user',
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => TRUE,
+        'default' => '',
+        ),
+        'lname' => array(
+        'description' => 'Last name of alumni user',
+        'type' => 'varchar',
+        'length' => 20,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'rid' => array(
+        'description' => 'Role id for alumni user',
+        'type' => 'INT',
+        'length' => 2,
+        'not null' => FALSE,
+        'default' => 7,
+      ),
+      'email'+> array(
+        'description'=> 'Email id of alumni',
+        'type' =>'varchar',
+        'length' =>'25',
+        'not null' => FALSE,
+        )
+      );
+
+  foreach ($fields as $key => $field)  {
+    if (!db_field_exists('alumni_user', $key)) {
+      db_add_field('alumni_user', $key, $field);
+    }
+  }
+}
+?>
