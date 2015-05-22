@@ -1,29 +1,36 @@
 <?php
 /*
-creating  hook_form_alter()
-*/
-	function custom_example_form_alter(&$form,&$form_state,$form_id)
-	{
-		
-
-   
-   
-   // if($id)
-//	{		
-        	$form['webform_client_form_34'] = array(
-        	'#weight' => 1001,    
-        	'#markup' =>'<input class="form-button" type="reset" value="Reset" />',
-         	);
-        	return $form;
-  //  	 }
-	
+ * Creating  hook_form_alter()
+ */
+function custom_example_form_alter(&$form, &$form_state, $form_id) {
+  $form['webform_client_form_34'] = array(
+    '#weight' => 1001,    
+    '#markup' =>'<input class="form-button" type="reset" value="Reset" />',
+  );
+  if ($form_id == 'webform_client_form_34') {
+    // Change submit handler
+    $form['#submit'][] = 'custom_example_submit_handler';
   }
+  return $form;
+}
 
 
+function custom_example_submit_handler($form, &$form_state) {
+   //echo'<pre>';print_r($form_state);die();
+   $username = $form_state['values']['submitted'][1].$form_state['values']['submitted'][3];
+   $email = $form_state['values']['submitted'][9];
+   $new_user = array(
+     'name' => $username,
+     //'pass' => $sifra, // note: do not md5 the password
+     'mail' => $email,
+     'status' => 1,
+     'init' => $email,
+     'rid' => array(
+      DRUPAL_AUTHENTICATED_RID => 'Custum_user_for_alumni',
+      7 => 'custum role',
+     ),
+   );
+   user_save(null, $new_user);
 
-
-
-
-
-	
+}
 
