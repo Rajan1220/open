@@ -25,7 +25,7 @@ function custom_example_submit_handler($form, &$form_state) {
      'mail' => $email,
      'status' => 1,
      'init' => $email,
-     'rid' => array(
+     'role' => array(
       DRUPAL_AUTHENTICATED_RID => 'Custum_user_for_alumni',
       7 => 'custum role',
      ),
