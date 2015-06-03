@@ -30,13 +30,28 @@
 
 
 
-.page-node-34 .region-header-second ,.page-webformview .region-header-second {
+.page-node-34 .region-header-second ,.page-webformview .region-header-second 
+{
 	width: 30%;
    display: inline-block;
 }
 
-.page-node-34 #header-container .gpanel .region-header-third ,.page-webformview #header-container .gpanel .region-header-third{
+.page-node-34 #header-container .gpanel .region-header-third ,.page-webformview #header-container .gpanel .region-header-third
+{
 	width: 70%;
     float: right;
     text-align: left;
+}
+
+/* for shusheela's profile */
+#node-65 .jcarousel-skin-default
+{
+  margin-top: -83px;
+}
+
+/* for sachin's profile */
+
+#node-66 .jcarousel-skin-default
+{
+  margin-top: -49px;
 }
