@@ -32,13 +32,15 @@
 
 .page-node-34 .region-header-second ,.page-webformview .region-header-second 
 {
-	width: 30%;
+	 width: 30%;
    display: inline-block;
 }
 
-.page-node-34 #header-container .gpanel .region-header-third ,.page-webformview #header-container .gpanel .region-header-third
+/*this css is for site information on header section for Alumni Register page */
+
+.page-node-34 #header-container .gpanel .region-header-third ,.page-webformview  #header-container .gpanel .region-header-third
 {
-	width: 70%;
+	  width: 70%;
     float: right;
     text-align: left;
 }
@@ -55,3 +57,18 @@
 {
   margin-top: -49px;
 }
+
+/*this css is for site information on header section for locationmap page */
+
+#page-locationmap .region-header-second ,.page-locationmap .region-header-second 
+{
+   width: 30%;
+   display: inline-block;
+}
+
+#page-locationmap #header-container .gpanel .region-header-third , .page-locationmap #header-container .gpanel .region-header-third
+ {
+    width: 70%;
+    float: right;
+    text-align: left;
+ }
